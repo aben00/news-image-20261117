@@ -13,40 +13,60 @@ Bounty: https://make.fun/bounty/news-image-20261117
 ## The image
 
 A newspaper-style front page, "THE WORLD TODAY — TUESDAY 17 NOVEMBER
-2026", with six illustrated stories — the day's most consequential events,
-across regions and fields, each with a picture and a short label so the day
-reads from the image alone:
+2026", with three illustrated lead stories and an index of thirty more —
+33 verified stories in total, across regions and beats, each with a
+headline and a one-line label so the day reads from the image alone.
+Every story was checked against reporting dated 17 November 2026
+(BBC, Reuters, AP, CNN, NYT, NPR, Al Jazeera and others): each event
+either happened or was first reported on that day.
 
-1. **Kerch Bridge span falls** (Ukraine · War) — a road span of the bridge
-   to Crimea collapses after a second straight night of Ukrainian strikes;
-   Russia vows to rebuild.
-2. **Tankers hit mines** (Middle East · Hormuz) — Iran's
-   Revolutionary Guard navy says two oil tankers struck mines and caught
-   fire on a route Tehran calls unauthorised; a third US carrier arrives in
-   the region.
-3. **Trump lands in Manila** (USA · ASEAN) — President Trump arrives in the
-   Philippines for the ASEAN summit and signs a joint trade statement with
-   Thailand, en route to Shenzhen.
-4. **Xi–Trump–Putin meeting set** (China · Diplomacy) — China confirms the
-   first three-way meeting of Xi Jinping, Donald Trump and Vladimir Putin,
-   set for Thursday in Shenzhen on the APEC sidelines.
-5. **JPMorgan blames a bug** (USA · Banking) — JPMorgan Chase blames
-   a software bug, not a cyberattack, for Monday's banking disruption
-   hitting online banking, branches and Zelle.
-6. **Vulcan rocket fails** (USA · Space) — a ULA Vulcan rocket fails in
-   flight, destroying 40 Amazon Leo internet satellites.
+**Lead stories**
 
-Sources: BBC, Al Jazeera, Reuters, AP — all events of, or first reported
-on, 17 November 2026.
+1. **Kerch Bridge falls** (Ukraine · War) — a second night of Ukrainian
+   strikes brings down a road span of the bridge to Crimea; Russia vows
+   to rebuild.
+2. **Iran drones hit radar** (Middle East · Iran) — drones fired at a US
+   radar base in Bahrain are shot down; US intelligence warns of an
+   Iranian "dirty bomb" plot against Trump officials.
+3. **Trump lands in Manila** (Asia · Diplomacy) — Trump opens his Asia
+   trip at the ASEAN summit, en route to Shenzhen for Thursday's first
+   Xi–Trump–Putin three-way meeting.
+
+**More from the day (30)**
+
+- Tankers hit mines off Hormuz · Kyiv's river bridges struck · Japan
+  scrambles jets over suspected Russian aircraft · UK sanctions West
+  Bank settlement builders · Settler killing in Jericho · Four nations
+  urge Israel to open Gaza crossings · Israel election-arrest probe ·
+  Houthi advance in Yemen · Estonia shuts its Russia border Dec 1 ·
+  128 states meet in Geneva over a killer-robot ban · China–Canada
+  tariff cuts worth $280m · Mongolia's president quits over a $25m
+  graft claim · US nationwide alert test ("No blackouts") · NYC Mayor
+  Mamdani disbands the NYPD protest-response unit · Newsom sued over
+  548 commuted death sentences · Supreme Court declines DEI appeals ·
+  US loses measles-free status held for 30 years · Nvidia beats on
+  $115.8bn as stocks fall · US curbs China chip access via foreign
+  data centres · California sues OpenAI · Microsoft blames a defect
+  for its 80%-server outage · ULA Vulcan fails, Amazon satellites
+  lost · EU charges Temu · COP31 fight over delaying IPCC reports ·
+  US data centres emit 25.7m tonnes of CO2 a year · DR Congo Ebola:
+  11,200 cases, 5,500 dead · 17 dead in two South Africa shootings ·
+  Depardieu pleads guilty in Paris · India beat Pakistan 2–1 for a
+  record 10th SAFF title · Alcaraz beats Tiafoe 6–2, 6–2 at the ATP
+  Finals in Turin.
+
+Sources: BBC, Reuters, AP, CNN, NYT, NPR, Al Jazeera — all events of,
+or first reported on, 17 November 2026.
 
 ## Files
 
 - `entry.png` — the 1024×1024 image the program writes out.
 - `main.ts` — the entrypoint: copies `entry.png` to the output directory.
 - `draw.py` — the generator that drew `entry.png` with Pillow
-  (flat vector-style illustration, DejaVu fonts). It is provenance for the
-  image, not part of the entry run: `main.ts` only copies the finished PNG,
-  so the entry is deterministic — both graded runs write identical bytes.
+  (flat vector-style illustration, DejaVu fonts). It is provenance for
+  the image, not part of the entry run: `main.ts` only copies the
+  finished PNG, so the entry is deterministic — both graded runs write
+  identical bytes.
 
 ## Run
 
